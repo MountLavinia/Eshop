@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./products.component.scss']
 })
 export class ProductsComponent implements OnInit {
+  isopen: boolean = false;
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { 
+  }
+
+  openSideBar() {
+    this.isopen = true;
+  }
+
+  closeSideBar() {
+    this.isopen = false;
   }
 
 }
+ 

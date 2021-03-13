@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AdminLandPageComponent } from './admin-land-page/admin-land-page.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { ProductsComponent } from './products/products.component';
-import { ReportsComponent } from './reports/reports.component';
-import { SalesComponent } from './sales/sales.component';
+import { AdminLandPageComponent } from './administration-components/admin-land-page/admin-land-page.component';
 import { AdministrationRoutingModule } from './administration-routing.module';
+import { DashboardComponent } from './administration-components/dashboard/dashboard.component';
+import { ProductsComponent } from './administration-components/products/products.component';
+import { ReportsComponent } from './administration-components/reports/reports.component';
+import { SalesComponent } from './administration-components/sales/sales.component';
 
 @NgModule({
   declarations: [AdminLandPageComponent, DashboardComponent, ProductsComponent, ReportsComponent, SalesComponent],
