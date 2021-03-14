@@ -89,8 +89,10 @@ a {
 }
 
 .close {
+    color: #28A745;
     margin-left: auto;
-    font-size: 0.7rem
+    font-size: 1.0rem;
+    margin-right: 5px;
 }
 
 img {
@@ -174,4 +176,21 @@ a:hover {
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: center
+}
+
+.wrapper{
+    width: auto;
+    background: #28A745;
+    height: 40px;
+    text-align: right;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.marquee {
+    background: transparent;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 4s linear;
+    color: whitesmoke;
+    font-size: 28px;
 }

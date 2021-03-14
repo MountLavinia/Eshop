@@ -6,7 +6,6 @@ import { ContactComponent } from './genaral-components/contact/contact.component
 import { GalleryComponent } from './genaral-components/gallery/gallery.component';
 import { GeneralLandPageComponent } from './genaral-components/general-land-page/general-land-page.component';
 import { LoginComponent } from './genaral-components/login/login.component';
-import { RegisterComponent } from './genaral-components/register/register.component';
 import { ResetPasswordComponent } from './genaral-components/reset-password/reset-password.component';
 import { ShopItemComponent } from './genaral-components/shop-item/shop-item.component';
 import { ShopComponent } from './genaral-components/shop/shop.component';
@@ -43,10 +42,6 @@ const routes: Routes = [
       {
         path: "Login",
         component: LoginComponent
-      },
-      {
-        path: "Register",
-        component: RegisterComponent
       },
       {
         path: "ResetPassword",
