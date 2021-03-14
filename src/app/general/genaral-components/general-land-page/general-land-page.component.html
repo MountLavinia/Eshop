@@ -56,18 +56,18 @@
                 </ul>
             </div>
             <div class="navbar align-self-center d-flex" style="background-color: rgb(229, 240, 198) !important;">
-                <a title="Cart" class="nav-icon position-relative text-decoration-none" href="#">
-                    <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                    <span
-                        class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
+                <a title="Cart" class="nav-icon position-relative text-decoration-none" [routerLink]="['Cart']">
+                    <i style="color: #28A745 !important;" class="fa fa-fw fa-shopping-cart text-dark mr-1"></i>
+                    <span style="color: #28A745 !important;"
+                        class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">3</span>
                 </a>
-                <a title="Users" class="nav-icon position-relative text-decoration-none" href="#">
+                <!-- <a title="Users" class="nav-icon position-relative text-decoration-none" href="#">
                     <i class="fa fa-fw fa-user text-dark mr-3"></i>
                     <span
                         class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
-                </a>
+                </a> -->
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a title="Login" class="nav-icon position-relative text-decoration-none" [routerLink]="['Login']">
+                <a class="nav-icon position-relative text-decoration-none" [routerLink]="['Login']">
                     <!-- <i class="fa fa-fw fa-sign-in-alt text-dark mr-3"></i> -->
                     <span style="color: #28A745 !important;"
                         class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">
@@ -75,9 +75,9 @@
                     </span>
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a title="Login" class="nav-icon position-relative text-decoration-none" [routerLink]="['/Administration']">
+                <a class="nav-icon position-relative text-decoration-none" [routerLink]="['/Administration']">
                     <!-- <i class="fa fa-fw fa-sign-in-alt text-dark mr-3"></i> -->
-                    <span style="color: #567086 !important;"
+                    <span style="color: #28A745 !important;"
                         class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">
                         ADMINISTRATION
                     </span>
