@@ -9,12 +9,15 @@ import { AboutComponent } from './genaral-components/about/about.component';
 import { ContactComponent } from './genaral-components/contact/contact.component';
 import { ResetPasswordComponent } from './genaral-components/reset-password/reset-password.component';
 import { LoginComponent } from './genaral-components/login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [GeneralLandPageComponent, GalleryComponent, ShopComponent, ShopItemComponent, AboutComponent, ContactComponent, LoginComponent, ResetPasswordComponent],
   imports: [
     CommonModule,
-    GenaralRoutingModule
+    GenaralRoutingModule,
+    ReactiveFormsModule
   ]
 })
 export class GeneralModule { } 
