@@ -12,6 +12,14 @@ import { ShopComponent } from './genaral-components/shop/shop.component';
 
 const routes: Routes = [
   {
+    path: "Login",
+    component: LoginComponent
+  },
+  {
+    path: "ResetPassword",
+    component: ResetPasswordComponent
+  },
+  {
     path: "",
     component: GeneralLandPageComponent,
     children: [
@@ -39,14 +47,7 @@ const routes: Routes = [
         path: "Contact",
         component: ContactComponent
       },
-      {
-        path: "Login",
-        component: LoginComponent
-      },
-      {
-        path: "ResetPassword",
-        component: ResetPasswordComponent
-      },
+      
       {
         path: "",
         redirectTo: "Gallery",
@@ -57,7 +58,7 @@ const routes: Routes = [
       },
     ]
   },
-
+  
 ];
 
 @NgModule({
